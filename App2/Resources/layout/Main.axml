@@ -3,5 +3,20 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    android:background="@android:color/holo_blue_bright"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:textAlignment="center">
+    <TextView
+        android:id="@+id/mail"
+        android:text="Enter mail id"
+        android:layout_height="100dp"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+        style="@android:style/TextAppearance"
+        android:layout_marginLeft="80dp"
+        android:textSize="40dp"
+        android:textStyle="normal"
+        android:textColor="@android:color/background_dark" />
 </LinearLayout>
